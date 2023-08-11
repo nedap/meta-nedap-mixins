@@ -4,8 +4,9 @@ The layers-setup support was added to Mickledore, this thin special-purpose
 mixin layer is meant to provide this functionality for Kirkstone by
 backporting the appropriate files from openembedded-core.
 
-In addition to this layer the following commit from bitbake is required:
-https://git.openembedded.org/bitbake/commit/?id=2f6c7523a622f59ddf84a1a196927492bc5fa7a2
+To use this layer bitbake 2.0.12 / YP 4.0.12 or a later version is required,
+or, alternatively, the following commit from bitbake:
+https://git.openembedded.org/bitbake/commit/?id=41b6684489d0261753344956042be2cc4adb0159
 
 Maintainers:
 Jermain Horsman <jermain.horsman@nedap.com>
