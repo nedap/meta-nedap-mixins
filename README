@@ -1,0 +1,4 @@
+"Mixin" layer for resolving fail2ban issues into the Yocto Project LTS.
+
+The fail2ban issues are resolved in Styhead, this mixin layer is meant to add a working version of 
+fail2ban to Scarthgap by backporting the appropriate files from openembedded-core.
