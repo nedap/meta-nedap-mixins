@@ -1,0 +1,7 @@
+# meta-nedap-mixins
+
+Yocto Project mixin layer that provides wolfSSL 5.9.2 for Scarthgap, replacing
+the older recipe from `meta-networking`.
+
+The layer depends on OpenEmbedded-Core (`core`) and is compatible with
+Scarthgap.
