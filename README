@@ -1,0 +1,13 @@
+# meta-nedap-linux-mixin
+
+Yocto Project mixin layer for shared Nedap build components. It currently
+provides the `linux-nedap` mainline stable-kernel baseline for Wrynose.
+
+`linux-nedap_6.18.bb` pins both the exact Linux stable release and its
+source commit. Hardware BSP layers add their defconfig, device tree, and patch
+series through `linux-nedap` bbappends; product layers add product policy in
+the same way.
+
+The layer depends on OpenEmbedded-Core (`core`) and is compatible with
+Wrynose. It should be listed after OE-Core and before the Nedap BSP and
+product layers.
