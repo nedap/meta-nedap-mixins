@@ -20,7 +20,7 @@ SRC_URI = " \
     file://run-ptest \
 "
 
-SRC_URI[sha256sum] = "413da75248d14e4bd249ad82ad7523600f4bf44d67f7eced0e43e0d9220ef6c5"
+SRC_URI[sha256sum] = "b030ae5b55d0c77db6b3d1e1aae580da43d54d1f07e9882102a654939634e108"
 
 FETCHCMD_wget = "/usr/bin/env wget -t 2 -T 100 --config=${BB_FETCH_GHRA_CONFFILE}"
 do_fetch[vardepsexclude] += "BB_FETCH_GHRA_CONFFILE"
